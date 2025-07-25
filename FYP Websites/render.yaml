@@ -1,0 +1,9 @@
+# Correct render.yaml for a static HTML website
+services:
+  - type: static
+    name: fyptest
+    repo: https://github.com/ddevMetal/fyptest
+    branch: main
+    staticPublishPath: .
+    plan: free
+    autoDeploy: true
